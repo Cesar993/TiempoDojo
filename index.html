@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    </style>
+
+    <title>TiempoDojo</title>
+</head>
+<body>
+<div class="block1">
+    <div class="nav">
+        <div class="title">
+            <h1>DojoWeather</h1>
+        </div>
+        <div class="city">          
+        <h2 onclick="informe()">Burbank</h2>
+        <h2 onclick="informe()">Chicago</h2>
+        <h2 onclick="informe()">Dallas</h2>
+        </div>
+
+    </div>
+    <div class="block2">
+        <div class="block3">
+            <div class="block4">
+                <h1>San Jose</h1>
+                <div class="temperature">
+                    <h2>Show temperature in</h2>
+                    <select name="temp" id="" onchange="chan(this)">
+                        <option >°C</option>
+                        <option >°F</option>
+                    </select>
+                </div>
+            </div>
+            <div class="block5">
+                <div class="today">
+                    <h1>Today</h1>
+                    <img src="assets/some_rain.png" alt="">
+                <h2>some rain</h2>
+                <div class="grado">
+                    <h1 class="red">75°</h1>
+                    <h1 class="blue">65°</h1>
+                </div>
+                </div>
+                <div class="tomorrow">
+                    <h1>Tomorrow</h1>
+                    <img src="assets/some_sun.png" alt="">
+                <h2>some rain</h2>
+                <div class="grado">
+                    <h1 class="red1">80°</h1>
+                    <h1 class="blue1">66°</h1>
+                </div>
+                </div>
+                <div class="friday">
+                    <h1>Friday</h1>
+                    <img src="assets/some_clouds.png" alt="">
+                <h2>some rain</h2>
+                <div class="grado">
+                    <h1 class="red2">69°</h1>
+                    <h1 class="blue2">61°</h1>
+                </div>
+                </div>
+                <div class="saturday">
+                    <h1>Saturday</h1>
+                    <img src="assets/some_sun.png" alt="">
+                <h2>some rain</h2>
+                <div class="grado">
+                    <h1 class="red3">78°</h1>
+                    <h1 class="blue3">70°</h1>
+                </div>
+                </div>
+
+            </div>
+            <div class="cookie">
+                <img src="assets/cookie.png" alt="">
+                <div class="stop">
+                    <h1>Stop! Cookie time</h1>
+                    <p>We use cookies (sadly not the edible ones)
+                        to personalize content and ads, to provide social
+                        media features and analise our trafic.
+                        <a>Read more...</a>
+                    </p>
+                </div>
+                <button onclick="borrar()">I Accept</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
